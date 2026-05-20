@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <form>
+
+    <!-- Name -->
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <!-- Email -->
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <!-- Position -->
+    <label for="position">Position</label>
+    <select id="position" required>
+      <option value="">Select</option>
+      <option value="dev">Developer</option>
+      <option value="design">Designer</option>
+      <option value="manager">Manager</option>
+    </select>
+
+    <!-- Radio group -->
+    <fieldset class="radio-group">
+      <legend>Availability</legend>
+
+      <input type="radio" id="full" name="availability">
+      <label for="full">Full Time</label>
+
+      <input type="radio" id="part" name="availability">
+      <label for="part">Part Time</label>
+
+      <input type="radio" id="freelance" name="availability">
+      <label for="freelance">Freelance</label>
+    </fieldset>
+
+    <!-- Message -->
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <!-- Submit -->
+    <button type="submit">Submit</button>
+
+  </form>
+
+</div>
+
+</body>
+</html>
