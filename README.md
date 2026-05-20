@@ -21,9 +21,11 @@ Positioning
 Transforms and animations
 Custom form controls
 Accessibility basics
+
 🛠️ Technologies Used
 HTML5
 CSS3
+
 🎯 Topics Covered
 Forms & Inputs
 
@@ -72,6 +74,7 @@ Most exercises and projects in this repository are inspired by or completed thro
 FreeCodeCamp
 CSS practice challenges
 Front-end development exercises
+
 📂 Repository Purpose
 
 This repository is used to:
@@ -80,11 +83,13 @@ Track my CSS learning progress
 Practice writing clean CSS
 Improve front-end development skills
 Build small UI components and layouts
+
 ▶️ How to Use
 Clone or download the repository.
 Open any project folder.
 Run the index.html file in your browser.
 Edit the CSS files to experiment and practice.
+
 👨‍💻 Author
 
 Created as part of my front-end development learning journey.
